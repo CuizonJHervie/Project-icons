@@ -1,0 +1,113 @@
+D<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Header</title>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* HEADER */
+    .header {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(to right, #1877f2, #0a6194);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    /* FACEBOOK ICON SA GILID */
+    .fb-icon {
+      position: absolute;
+      left: 20px;
+      font-size: 40px;
+      color: white;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .fb-icon:hover {
+      transform: scale(1.2);
+    }
+
+    /* NAME */
+    .name-box {
+      text-align: center;
+      color: white;
+    }
+
+    .letters {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 5px 0;
+      flex-wrap: wrap;
+    }
+
+    .letter-box {
+      width: 45px;
+      height: 45px;
+      background: white;
+      color: #1877f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .letter-box:hover {
+      transform: scale(1.2);
+      background: #0a6194;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+
+    <!-- FACEBOOK ICON (BOOTSTRAP) -->
+    <i class="bi bi-facebook fb-icon"></i>
+
+    <!-- NAME -->
+    <div class="name-box">
+
+      <!-- Jhervie -->
+      <div class="letters">
+        <div class="letter-box">J</div>
+        <div class="letter-box">H</div>
+        <div class="letter-box">E</div>
+        <div class="letter-box">R</div>
+        <div class="letter-box">V</div>
+        <div class="letter-box">I</div>
+        <div class="letter-box">E</div>
+      </div>
+
+      <!-- Cuizon -->
+      <div class="letters">
+        <div class="letter-box">C</div>
+        <div class="letter-box">U</div>
+        <div class="letter-box">I</div>
+        <div class="letter-box">Z</div>
+        <div class="letter-box">O</div>
+        <div class="letter-box">N</div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
